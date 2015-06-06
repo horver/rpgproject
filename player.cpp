@@ -6,7 +6,6 @@ float Player::getHealth() const {
 
 void Player::step(SDL_Event* event, bool collided, GameObject& other) {
 	
-	//const Uint8* keyState = SDL_GetKeyboardState(NULL); //YUNO WORK BITCH?!
 	SDL_Keycode key = event->key.keysym.sym;
 
 	if (key == SDLK_RIGHT) { //
